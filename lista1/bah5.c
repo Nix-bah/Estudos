@@ -20,7 +20,6 @@ int main() {
     float total_geral = 0;
     int maior_indice = 0;
     
-    // Leitura dos dados
     for (int i = 0; i < n; i++) {
         printf("\n--- Produto %d ---\n", i + 1);
         printf("Nome: ");
@@ -45,7 +44,7 @@ int main() {
         }
     }
     
-    // Exibição da tabela
+
     printf("\n========== TABELA DE PRODUTOS ==========\n");
     printf("%-25s %10s %10s %15s %15s\n", "Produto", "Preço", "Qtd", "Valor Estoque", "Valor Revenda");
     printf("=====================================================================================================\n");
